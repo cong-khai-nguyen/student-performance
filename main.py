@@ -19,7 +19,7 @@ x = np.array(data.drop([predict], 1))
 y = np.array(data[predict])
 x_train, x_test, y_train, y_test = sklearn.model_selection.train_test_split(x, y, test_size= 0.1)
 
-# Getting linear model, train data until it gets to 95% accuracy and save it into pickle file
+# Getting linear model, train data until it gets to 95% accuracy and save it into pickle file for future access
 
 # best = 0
 # for _ in range(30):
